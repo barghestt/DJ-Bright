@@ -1,0 +1,44 @@
+.last-tracks {
+  background-color: $bg-color;
+}
+
+.last-tracks__wrp {
+  display: flex;
+  column-gap: 60px;
+  align-items: flex-start;
+  @include mediaTablet($tablet){
+    justify-content: center;
+  }
+}
+.last-tracks__title {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 94px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 64px;
+    height: 31px;
+    background-image: url("./../img/befores/Bright-lights.svg");
+    background-repeat: no-repeat;
+  }
+}
+.last-tracks__img {
+    margin-top: 37px;
+    width: 510px;
+    height: 510px;
+    @include mediaTablet($tablet){
+      display: none;
+    }
+}
+.last-tracks__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    max-width: 540px;
+}
+

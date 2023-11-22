@@ -1,0 +1,69 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  color: $white;
+  line-height: 150%;
+  background-color: $bg-color;
+}
+
+a {
+  color: $white;
+  transition: color 0.2s ease-in;
+  &:hover {
+    color: $accent;
+  }
+}
+
+.title-1 {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 150%;
+  color: transparent;
+  -webkit-text-stroke: 0.5px white; /* Толщина и цвет обводки (для WebKit-браузеров) */
+}
+.title-2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 0 15px;
+}
+
+audio {
+  display: block;
+  width: 100%;
+}
+
+audio::-webkit-media-controls {
+  display: none !important;
+}
+
+/* Создать кастомные элементы управления */
+.audio-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Стили для кнопок управления */
+.audio-controls button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}

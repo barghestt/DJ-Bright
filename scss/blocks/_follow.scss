@@ -1,0 +1,21 @@
+.follow {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  @include mediaPhone($mobile){
+    
+    flex-direction: column;
+  }
+}
+.follow__text {
+  @include font-size(24px,600,$line-height);
+  margin-right: 10px;
+}
+.follow__item {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  &:hover {
+    color: $white;
+  }
+}
