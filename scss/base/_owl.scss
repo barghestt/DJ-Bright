@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .owl-item{
   display: flex;
   justify-content: center;
@@ -37,3 +38,44 @@
 }
 .owl-carousel .owl-stage-outer {
 }
+=======
+.owl-item{
+  display: flex;
+  justify-content: center;
+}
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: red;
+  border-radius: 20px 0;
+  overflow: hidden;
+  &:hover {
+    background-color: white;
+  }
+}
+.owl-prev {
+  left: -80px;
+  @include mediaTablet($tablet) {
+    left: 0;
+  }
+}
+.owl-next {
+  right: -80px;
+  @include mediaTablet($tablet) {
+    right: 0;
+  }
+}
+
+.owl-nav button img {
+  padding: 30px 10px;
+  border: 1px solid rgba($color: $white, $alpha: 0.5);
+  border-radius: 20px 0;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  border-radius: 20px 0;
+  background-color: rgba($color: $white, $alpha: 0.1);
+}
+.owl-carousel .owl-stage-outer {
+}
+>>>>>>> 62ba4572a024b3e26dde46385c9bf623eaef7760

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
   font-family: "Poppins";
   src: url("./../fonts/fontsfree-net-poppins-bold-webfont.woff2")
@@ -33,3 +34,40 @@
   font-weight: 600;
   font-style: normal;
 }
+=======
+@font-face {
+  font-family: "Poppins";
+  src: url("./../fonts/fontsfree-net-poppins-bold-webfont.woff2")
+      format("woff2"),
+    url("./../fonts/fontsfree-net-poppins-bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./../fonts/fontsfree-net-poppins-medium-webfont.woff2")
+      format("woff2"),
+    url("./../fonts/fontsfree-net-poppins-medium-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./../fonts/fontsfree-net-poppins-regular-webfont.woff2")
+      format("woff2"),
+    url("./../fonts/fontsfree-net-poppins-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./../fonts/fontsfree-net-poppins-semibold-webfont.woff2")
+      format("woff2"),
+    url("./../fonts/fontsfree-net-poppins-semibold-webfont.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+>>>>>>> 62ba4572a024b3e26dde46385c9bf623eaef7760

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .event {
   min-width: 350px;
   max-width: 350px;
@@ -51,3 +52,58 @@
     background-color: $white;
   }
 }
+=======
+.event {
+  min-width: 350px;
+  max-width: 350px;
+  border-radius: 0 0 20px 0;
+  overflow: hidden;
+  transition: .2s ease-in;
+  position: relative;
+  z-index: 5;
+  &:hover{
+    //transform: translateY(-20px);
+    //transform: scale(1.1);
+    .event__top img{
+      //transform: scale(1.2);
+    }
+  }
+}
+.event__top img{
+  transition: .2s ease-in;
+}
+.event__bot {
+  padding: 30px 35px 20px;
+  background-color: #2f2b2b;
+  position: relative;
+}
+.event__loc {
+  margin-bottom: 20px;
+  @include font-size(18px,700,$line-height);
+  color: rgba($color: $white, $alpha: 0.5);
+}
+.event__site {
+  margin-bottom: 45px;
+  @include font-size(18px,500,$line-height);
+}
+.event__date {
+  @include font-size(16px,700,$line-height);
+  color: rgba($color: $white, $alpha: 0.5);
+  text-transform: uppercase;
+}
+.event__ticket {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 16px 52px;
+  border-radius: 20px 0;
+  @include font-size(16px,700,$line-height);
+  background-color: $accent;
+  text-transform: uppercase;
+  transition: .2s ease-in;
+  &:hover {
+    color: $accent;
+    background-color: $white;
+  }
+}
+>>>>>>> 62ba4572a024b3e26dde46385c9bf623eaef7760

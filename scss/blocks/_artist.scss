@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .artist {
     padding-top: 330px;
     background-color: $bg-color;
@@ -67,4 +68,75 @@
     @include mediaPhone($mobile){
         display: none;
     }
+=======
+.artist {
+    padding-top: 330px;
+    background-color: $bg-color;
+}
+.artist__wrp {
+    display: flex;
+    column-gap: 125px;
+    align-items: center;
+    justify-content: center;
+    @include mediaTablet($tablet){
+        column-gap: 15px;
+      }
+}
+.artist__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    max-width: 540px;
+}
+
+.artist__title {
+    padding-left: 94px;
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        left: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 64px;
+        height: 31px;
+        background-image: url('./../img/befores/Bright-lights.svg');
+        background-repeat: no-repeat;
+        
+    }
+}
+.artist__text {
+    color: rgba($color: $white, $alpha: 0.7);
+}
+.artist__labels {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 33px;
+    column-gap: 40px;
+    @include mediaPhone($mobile){
+        column-gap: 15px;
+      }
+}
+.artist__label {
+    @include font-size(18px,600);
+    padding-left: 50px;
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        left: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 30px;
+        background-image: url('./../img/befores/label-before.svg');
+        background-repeat: no-repeat;
+        
+    }
+}
+.artist__img{
+    @include mediaPhone($mobile){
+        display: none;
+    }
+>>>>>>> 62ba4572a024b3e26dde46385c9bf623eaef7760
 }
