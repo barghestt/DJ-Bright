@@ -1,0 +1,20 @@
+.quote {
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.quote__text {
+    font-size: 18px;
+    line-height: 150%;
+}
+.quote__footer {
+    a{
+        color: $accent;
+        @include font-size(18px,700);
+    }
+}
+.quote__line{
+    height: 1px;
+    background: rgba($color: $white, $alpha: 0.5);
+}

@@ -1,0 +1,9 @@
+.our-events {
+  background-color: $bg-color;
+}
+
+.our-events__wrp {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}
